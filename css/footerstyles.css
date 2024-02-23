@@ -1,0 +1,10 @@
+h1 {
+    font-size: 165%;
+    font-weight: normal;
+}
+p {
+    color: blue;
+}
+footer p {
+    color: rgb(240, 59, 89)
+}

@@ -1,0 +1,282 @@
+html {
+    background-color: #869960;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 87%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Banner Overlay */
+.image-banner {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+.image-banner img {
+    display: block;
+}
+
+.banner-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    padding: 15px 25px;
+}
+.banner-caption {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 15px 25px;
+}
+
+.banner-caption p {
+    color:pink;
+}
+/* End Banner Overlay */
+
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#FFF;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+/* Form Styles */
+form{
+    background-color: #ECECEC;
+    padding: 30px 40px;
+}
+
+.hidden-label {
+    position:absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+input[type="email"], input[type="password"], select {
+    width:100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 40px;
+    font-family: Tahoma, sans-serif;
+    font-size: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #cdcdcd;
+}
+input, select {
+    font-family: Tahoma sans-serif;
+    font-size: 100%
+}
+input[type="email"]:focus, input[type="password"]:focus {
+    border: 1px #869960;
+}
+input[type="submit"] {
+    width:100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: #869960;
+    color:#FFF;
+    padding: 10px 0;
+    border: 1px solid #798a79;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    border: 1px solid #e5e9dc;
+    background-color: #798a79;
+}
+/* End form Styles */
+
+/* Table Styles */
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+table th {
+    text-align: left;
+    background-color: #869960;
+    color: #FFF;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+}
+
+table th, table td {
+    border: 1px solid #869960;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: #e5e9dc;
+}
+
+table th:nth-child(2), table th:nth-child(3),
+table td:nth-child(2), table td:nth-child(3) {
+    text-align: center;
+}
+  
+
+.col-fave {
+    width: 60%;
+}
+
+.col-P, .col-Q {
+    width: 20%
+}
+/* End Table Styles */
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #617140;
+}
+/*typography*/
+header h1 {
+    margin: 0;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 165%;
+    font-style: normal;
+    letter-spacing: 4px;
+    text-shadow: 2px 10px 1px #999999;
+}
+
+header p {
+    font-size: 100%;
+    margin-top: 10px;
+    text-align: justify;
+    color: palevioletred
+}
+
+header p a {
+    text-decoration: none;
+}
+
+.p1 p {
+    margin-top: 10px;
+    text-indent: 25px;
+    color: gray
+}
+/* end of typography*/
+.content-area {
+    
+    border-top: 3px solid #e5e9dc;
+    border-bottom: 3px solid  #e5e9dc;
+}
+
+.main {
+    width: 70%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.support { 
+    position: relative;
+    width: 30%;
+    float: left;
+    background-color: #e5e9dc;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 9;
+}
+
+.fix {
+    clear:both;
+}
+
+p {
+    color: gray;
+}
+
+footer p {
+    color:red;
+    text-align: center;
+    font-size: 85%;
+    color:#999;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color:orange;
+    text-align: center;
+    font-size: 165%;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header p {
+    color: green;
+}
+
+aside {
+    color: #617140;
+}
+
+header p span {
+    color: blue;
+
+}
+
+.color {
+    background-color: yellow;
+}
+
+.highlight {
+    color: crimson;
+    background-color: yellow;
+}
+
+.brand-color {
+    color: yellow;
+    background-color: blue;
+}
+
+/* Site Navigation */
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav {
+    margin-top: 20px;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color:#617140;
+    padding: 10px 20px;
+    border: 3px solid #617140;
+    display: block;
+    border-bottom: none;
+}
+
+.site-nav a:hover {
+    background-color: #e5e9dc;
+}
+/* End of Site Navigation */
